@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="DataFile" id="{a20fa382-6e0b-409e-81e3-335f5f9b3101}">
+		<property name="assetPath">
+			<value>NewSFXLibrary/FOOTSTEPS/peaks/FEETHmn_Leaves Dried Sneakers Walk_H2N_27.wav.reapeaks</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{87141b2c-14ae-4bd0-b17b-6338c22d2609}</destination>
+		</relationship>
+	</object>
+</objects>
