@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerGroup" id="{7502cda7-18b6-441c-9358-a57025aa754f}">
-		<property name="volume">
-			<value>-19</value>
+		<property name="color">
+			<value>Yellow</value>
 		</property>
 		<property name="name">
 			<value>SFX</value>
@@ -19,9 +19,18 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{c776f275-559b-45bc-801e-648b9a22b271}">
 		<relationship name="effects">
+			<destination>{64ad5afe-bc81-499f-83c3-18058f76b957}</destination>
 			<destination>{9ec3cc3f-738e-474d-87a1-7e58e5628d7e}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d7bdbb55-f2ee-4a3c-b359-a2008220167f}" />
+	<object class="MixerSend" id="{64ad5afe-bc81-499f-83c3-18058f76b957}">
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{56fada90-aeb6-495d-a5fd-2a9737082ff4}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{9ec3cc3f-738e-474d-87a1-7e58e5628d7e}" />
 </objects>

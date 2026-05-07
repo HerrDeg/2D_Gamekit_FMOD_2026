@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerReturn" id="{56fada90-aeb6-495d-a5fd-2a9737082ff4}">
+		<property name="name">
+			<value>OutdoorReverb</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{c6ee8e36-3d00-4257-88f6-87eaf1cb3fd6}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{4f72fe2a-505c-475c-9abe-69977e318469}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{0d701ae7-c4e0-424c-aa96-fccddccd5f44}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{c6ee8e36-3d00-4257-88f6-87eaf1cb3fd6}">
+		<relationship name="effects">
+			<destination>{abd7acb4-6411-4f30-b236-b367815522fd}</destination>
+			<destination>{5b47f70a-d62a-4264-844e-4d3cc40814a1}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{4f72fe2a-505c-475c-9abe-69977e318469}" />
+	<object class="MixerBusFader" id="{abd7acb4-6411-4f30-b236-b367815522fd}" />
+	<object class="ConvolutionReverbEffect" id="{5b47f70a-d62a-4264-844e-4d3cc40814a1}">
+		<property name="endFrame">
+			<value>123291</value>
+		</property>
+		<relationship name="referenceableData">
+			<destination>{ecada6bf-8adf-456f-887d-78dc3979d3cc}</destination>
+		</relationship>
+	</object>
+</objects>
