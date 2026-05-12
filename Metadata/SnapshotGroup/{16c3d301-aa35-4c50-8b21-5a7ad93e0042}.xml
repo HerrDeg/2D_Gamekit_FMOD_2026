@@ -5,8 +5,8 @@
 			<value>OutdoorSnapshots</value>
 		</property>
 		<relationship name="items">
-			<destination>{5b3d91f5-dd3a-4b2d-a5e3-ee245a7ee99f}</destination>
 			<destination>{2c641dcd-a199-47d2-88ab-754136511e21}</destination>
+			<destination>{5b3d91f5-dd3a-4b2d-a5e3-ee245a7ee99f}</destination>
 		</relationship>
 	</object>
 </objects>

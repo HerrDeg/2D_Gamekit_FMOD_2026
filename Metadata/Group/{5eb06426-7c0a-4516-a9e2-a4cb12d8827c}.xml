@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{5eb06426-7c0a-4516-a9e2-a4cb12d8827c}">
+		<property name="color">
+			<value>Green</value>
+		</property>
+		<property name="name">
+			<value>ply_wea_melee</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{0662dc02-ba77-4c48-8462-7ee8d7932a2d}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{d5268239-42de-4b63-a767-94d9c1f51ee2}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{2aa40fdd-2d4c-4ba5-92f3-c7bed0ccad8d}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{0662dc02-ba77-4c48-8462-7ee8d7932a2d}">
+		<relationship name="effects">
+			<destination>{0d3ff83d-bb35-416f-a517-74485426271d}</destination>
+			<destination>{98329a4a-7f35-4c21-a401-cbac95d72481}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{d5268239-42de-4b63-a767-94d9c1f51ee2}" />
+	<object class="MixerSend" id="{0d3ff83d-bb35-416f-a517-74485426271d}">
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{56fada90-aeb6-495d-a5fd-2a9737082ff4}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusFader" id="{98329a4a-7f35-4c21-a401-cbac95d72481}" />
+</objects>

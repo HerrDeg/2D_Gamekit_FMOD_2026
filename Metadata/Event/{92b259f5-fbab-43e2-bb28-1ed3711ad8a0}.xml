@@ -183,9 +183,6 @@
 		<property name="delayType">
 			<value>0</value>
 		</property>
-		<property name="pitch">
-			<value>6</value>
-		</property>
 		<relationship name="sounds">
 			<destination>{91545bf7-bcb9-4588-9c48-2891503de751}</destination>
 			<destination>{6cfbe732-1d5f-4c7c-a134-8dc8ec0ce5ed}</destination>
@@ -254,6 +251,9 @@
 		</property>
 		<property name="delayType">
 			<value>0</value>
+		</property>
+		<property name="pitch">
+			<value>6</value>
 		</property>
 		<relationship name="sounds">
 			<destination>{4b8920a8-46f6-4b40-b094-1f26d10e7d34}</destination>
