@@ -232,6 +232,9 @@
 		<property name="looping">
 			<value>true</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{1083df23-1356-4f20-810d-ca430ab4c2d4}</destination>
+		</relationship>
 		<relationship name="fadeInCurve">
 			<destination>{dfe5eed1-f003-4db8-898c-c8395632b625}</destination>
 		</relationship>
@@ -335,9 +338,33 @@
 		<relationship name="effects">
 			<destination>{b6fac6cc-6abb-4375-be32-cd3a7af02918}</destination>
 			<destination>{fb13e4c7-990e-4ef5-bac4-b46b21d6c82d}</destination>
+			<destination>{d8118d2e-1e88-4854-a277-72f0c3142a57}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{07b37626-7656-4c62-8dae-9c777d86e2bf}" />
+	<object class="SidechainModulator" id="{1083df23-1356-4f20-810d-ca430ab4c2d4}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="amount">
+			<value>6.5</value>
+		</property>
+		<property name="attackTime">
+			<value>150</value>
+		</property>
+		<property name="releaseTime">
+			<value>400</value>
+		</property>
+		<property name="minimumThreshold">
+			<value>-21.2000008</value>
+		</property>
+		<property name="maximumThreshold">
+			<value>-4</value>
+		</property>
+		<relationship name="sidechains">
+			<destination>{d8118d2e-1e88-4854-a277-72f0c3142a57}</destination>
+		</relationship>
+	</object>
 	<object class="FadeCurve" id="{dfe5eed1-f003-4db8-898c-c8395632b625}">
 		<relationship name="startPoint">
 			<destination>{d60e52ce-fbc4-4420-871c-fed1e65643a0}</destination>
@@ -431,7 +458,11 @@
 		<relationship name="automators">
 			<destination>{90cbd39d-743f-4795-b0a3-f9db11ecdcf9}</destination>
 		</relationship>
+		<relationship name="sidechains">
+			<destination>{d8118d2e-1e88-4854-a277-72f0c3142a57}</destination>
+		</relationship>
 	</object>
+	<object class="Sidechain" id="{d8118d2e-1e88-4854-a277-72f0c3142a57}" />
 	<object class="AutomationPoint" id="{d60e52ce-fbc4-4420-871c-fed1e65643a0}">
 		<property name="position">
 			<value>0.14000000000000001</value>
