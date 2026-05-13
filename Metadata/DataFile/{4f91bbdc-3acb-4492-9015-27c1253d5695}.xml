@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="DataFile" id="{4f91bbdc-3acb-4492-9015-27c1253d5695}">
+		<property name="assetPath">
+			<value>IR/02 Medium Spaces/01 Rooms/02.6s Hansa Studio-OST.wav</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{87141b2c-14ae-4bd0-b17b-6338c22d2609}</destination>
+		</relationship>
+	</object>
+</objects>

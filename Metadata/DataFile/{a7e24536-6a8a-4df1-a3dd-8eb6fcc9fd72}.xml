@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="DataFile" id="{a7e24536-6a8a-4df1-a3dd-8eb6fcc9fd72}">
+		<property name="assetPath">
+			<value>IR/03 Small Spaces/01 Rooms/01.6s Prince Hall Two-OST.wav</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{87141b2c-14ae-4bd0-b17b-6338c22d2609}</destination>
+		</relationship>
+	</object>
+</objects>

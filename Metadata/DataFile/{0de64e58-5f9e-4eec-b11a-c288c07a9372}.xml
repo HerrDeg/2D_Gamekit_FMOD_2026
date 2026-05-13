@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="DataFile" id="{0de64e58-5f9e-4eec-b11a-c288c07a9372}">
+		<property name="assetPath">
+			<value>IR/02 Medium Spaces/07 Indoor Spaces/02.0s Tiled Room-OST.wav</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{87141b2c-14ae-4bd0-b17b-6338c22d2609}</destination>
+		</relationship>
+	</object>
+</objects>

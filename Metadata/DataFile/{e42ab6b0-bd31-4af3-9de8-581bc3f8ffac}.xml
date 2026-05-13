@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="DataFile" id="{e42ab6b0-bd31-4af3-9de8-581bc3f8ffac}">
+		<property name="assetPath">
+			<value>IR/04 Surround Spaces/05 Warped Spaces/03.2s Prison Small Hall-OSD.wav</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{87141b2c-14ae-4bd0-b17b-6338c22d2609}</destination>
+		</relationship>
+	</object>
+</objects>

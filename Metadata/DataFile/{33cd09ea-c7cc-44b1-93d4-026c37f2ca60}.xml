@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="DataFile" id="{33cd09ea-c7cc-44b1-93d4-026c37f2ca60}">
+		<property name="assetPath">
+			<value>IR/04 Surround Spaces/03 Indoor Spaces/01.6s Big Cave Entrance-OSD.wav</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{87141b2c-14ae-4bd0-b17b-6338c22d2609}</destination>
+		</relationship>
+	</object>
+</objects>

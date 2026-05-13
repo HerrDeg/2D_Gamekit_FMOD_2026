@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="DataFile" id="{4f457cce-aa13-4a63-9b53-22192516d76d}">
+		<property name="assetPath">
+			<value>IR/04 Surround Spaces/02 Halls/12.0s Conservatory-CBF.wav</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{87141b2c-14ae-4bd0-b17b-6338c22d2609}</destination>
+		</relationship>
+	</object>
+</objects>

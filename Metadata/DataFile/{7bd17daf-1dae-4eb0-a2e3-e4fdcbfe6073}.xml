@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="DataFile" id="{7bd17daf-1dae-4eb0-a2e3-e4fdcbfe6073}">
+		<property name="assetPath">
+			<value>IR/01 Large Spaces/02 Halls/14.8s Stairs Mid Level-OST.wav</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{87141b2c-14ae-4bd0-b17b-6338c22d2609}</destination>
+		</relationship>
+	</object>
+</objects>

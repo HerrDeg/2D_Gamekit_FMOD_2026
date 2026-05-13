@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="DataFile" id="{59449450-913f-4b8b-b0e7-dcf0a9f8c067}">
+		<property name="assetPath">
+			<value>IR/04 Surround Spaces/01 Rooms/02.0s Villa Lobby-OBF.wav</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{87141b2c-14ae-4bd0-b17b-6338c22d2609}</destination>
+		</relationship>
+	</object>
+</objects>

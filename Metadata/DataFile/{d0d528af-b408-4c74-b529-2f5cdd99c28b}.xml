@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="DataFile" id="{d0d528af-b408-4c74-b529-2f5cdd99c28b}">
+		<property name="assetPath">
+			<value>IR/02 Medium Spaces/01 Rooms/02.8s Michaelis Chapel-OST.wav</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{87141b2c-14ae-4bd0-b17b-6338c22d2609}</destination>
+		</relationship>
+	</object>
+</objects>

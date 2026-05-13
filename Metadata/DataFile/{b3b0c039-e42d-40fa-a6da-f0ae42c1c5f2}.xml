@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="DataFile" id="{b3b0c039-e42d-40fa-a6da-f0ae42c1c5f2}">
+		<property name="assetPath">
+			<value>IR/04 Surround Spaces/05 Warped Spaces/03.9s Salt Mine Two-OSD.wav</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{87141b2c-14ae-4bd0-b17b-6338c22d2609}</destination>
+		</relationship>
+	</object>
+</objects>

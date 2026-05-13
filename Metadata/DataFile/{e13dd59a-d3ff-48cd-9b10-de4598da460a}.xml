@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="DataFile" id="{e13dd59a-d3ff-48cd-9b10-de4598da460a}">
+		<property name="assetPath">
+			<value>IR/05 Warped/06 Speakers/Amp Cabinet Speaker 6.wav</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{87141b2c-14ae-4bd0-b17b-6338c22d2609}</destination>
+		</relationship>
+	</object>
+</objects>

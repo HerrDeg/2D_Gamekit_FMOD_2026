@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="DataFile" id="{bc69b08f-fcd9-4770-bb5c-268b08668073}">
+		<property name="assetPath">
+			<value>IR/05 Warped/06 Speakers/Circuit Bent Mega Phone.wav</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{87141b2c-14ae-4bd0-b17b-6338c22d2609}</destination>
+		</relationship>
+	</object>
+</objects>

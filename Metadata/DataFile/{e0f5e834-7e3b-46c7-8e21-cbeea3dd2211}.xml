@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="DataFile" id="{e0f5e834-7e3b-46c7-8e21-cbeea3dd2211}">
+		<property name="assetPath">
+			<value>IR/01 Large Spaces/07 Indoor Spaces/09.7s Hangar One-OST.wav</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{87141b2c-14ae-4bd0-b17b-6338c22d2609}</destination>
+		</relationship>
+	</object>
+</objects>

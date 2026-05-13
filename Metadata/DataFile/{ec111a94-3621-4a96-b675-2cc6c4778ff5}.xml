@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="DataFile" id="{ec111a94-3621-4a96-b675-2cc6c4778ff5}">
+		<property name="assetPath">
+			<value>IR/05 Warped/07 Analog Circuits/Clean Limit Amp.wav</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{87141b2c-14ae-4bd0-b17b-6338c22d2609}</destination>
+		</relationship>
+	</object>
+</objects>
