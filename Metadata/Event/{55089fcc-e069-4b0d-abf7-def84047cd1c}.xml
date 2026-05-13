@@ -319,7 +319,6 @@
 			<value>true</value>
 		</property>
 		<relationship name="modulators">
-			<destination>{d9b97a52-550d-47ee-9232-0c709a4e52ee}</destination>
 			<destination>{c344ca1e-e910-4ef3-8c6d-ca587d783b32}</destination>
 		</relationship>
 		<relationship name="audioFile">
@@ -340,7 +339,6 @@
 			<value>true</value>
 		</property>
 		<relationship name="modulators">
-			<destination>{c11d77b4-6b1e-492d-a496-09f40ec014d3}</destination>
 			<destination>{f6ec7638-a0b2-487c-84ce-82beef029e80}</destination>
 		</relationship>
 		<relationship name="audioFile">
@@ -361,7 +359,6 @@
 			<value>true</value>
 		</property>
 		<relationship name="modulators">
-			<destination>{6bfe0628-655a-44cb-835c-395298f91c75}</destination>
 			<destination>{cb4318a2-366c-47ce-943b-fc86c01193b1}</destination>
 		</relationship>
 		<relationship name="audioFile">
@@ -372,6 +369,9 @@
 		<property name="name">
 			<value>Crickets</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{da818f59-f418-4c2d-be2c-6ac33b67e28b}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{de10eb30-1dff-4198-910d-301b6969e802}</destination>
 		</relationship>
@@ -497,52 +497,12 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{7b08a099-53db-4751-8954-d0329a1da2cd}" />
-	<object class="ADSRModulator" id="{d9b97a52-550d-47ee-9232-0c709a4e52ee}">
-		<property name="nameOfPropertyBeingModulated">
-			<value>volume</value>
-		</property>
-		<property name="initialValue">
-			<value>-80</value>
-		</property>
-		<property name="attackTime">
-			<value>2615.38501</value>
-		</property>
-		<property name="peakValue">
-			<value>1.73333359</value>
-		</property>
-		<property name="releaseTime">
-			<value>5200</value>
-		</property>
-		<property name="finalValue">
-			<value>-80</value>
-		</property>
-	</object>
 	<object class="RandomizerModulator" id="{c344ca1e-e910-4ef3-8c6d-ca587d783b32}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>startOffset</value>
 		</property>
 		<property name="amount">
 			<value>100</value>
-		</property>
-	</object>
-	<object class="ADSRModulator" id="{c11d77b4-6b1e-492d-a496-09f40ec014d3}">
-		<property name="nameOfPropertyBeingModulated">
-			<value>volume</value>
-		</property>
-		<property name="initialValue">
-			<value>-80</value>
-		</property>
-		<property name="attackTime">
-			<value>2615.38501</value>
-		</property>
-		<property name="peakValue">
-			<value>1.73333359</value>
-		</property>
-		<property name="releaseTime">
-			<value>5200</value>
-		</property>
-		<property name="finalValue">
-			<value>-80</value>
 		</property>
 	</object>
 	<object class="RandomizerModulator" id="{f6ec7638-a0b2-487c-84ce-82beef029e80}">
@@ -553,7 +513,15 @@
 			<value>100</value>
 		</property>
 	</object>
-	<object class="ADSRModulator" id="{6bfe0628-655a-44cb-835c-395298f91c75}">
+	<object class="RandomizerModulator" id="{cb4318a2-366c-47ce-943b-fc86c01193b1}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>startOffset</value>
+		</property>
+		<property name="amount">
+			<value>100</value>
+		</property>
+	</object>
+	<object class="ADSRModulator" id="{da818f59-f418-4c2d-be2c-6ac33b67e28b}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>volume</value>
 		</property>
@@ -561,24 +529,13 @@
 			<value>-80</value>
 		</property>
 		<property name="attackTime">
-			<value>2615.38501</value>
-		</property>
-		<property name="peakValue">
-			<value>1.73333359</value>
+			<value>2000</value>
 		</property>
 		<property name="releaseTime">
-			<value>5200</value>
+			<value>3000</value>
 		</property>
 		<property name="finalValue">
 			<value>-80</value>
-		</property>
-	</object>
-	<object class="RandomizerModulator" id="{cb4318a2-366c-47ce-943b-fc86c01193b1}">
-		<property name="nameOfPropertyBeingModulated">
-			<value>startOffset</value>
-		</property>
-		<property name="amount">
-			<value>100</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{de10eb30-1dff-4198-910d-301b6969e802}">
