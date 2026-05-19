@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{cda6bba9-bb7a-4311-bce7-17543f6c1c43}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
+		<property name="volume">
+			<value>-6.5</value>
+		</property>
+		<property name="name">
+			<value>amb_choir</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{f362a3b5-0a51-4330-90c9-c6962a561949}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{c55531dc-3bc2-4a21-8ae5-6678a731a477}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{bd982ed4-5617-4f8b-a8ad-57a6f2e81cfa}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{f362a3b5-0a51-4330-90c9-c6962a561949}">
+		<relationship name="effects">
+			<destination>{db656dae-b352-4025-aae5-5c28dbfe9b02}</destination>
+			<destination>{87e83b36-3707-4e01-b845-25491c30b189}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{c55531dc-3bc2-4a21-8ae5-6678a731a477}" />
+	<object class="MixerBusFader" id="{db656dae-b352-4025-aae5-5c28dbfe9b02}" />
+	<object class="Sidechain" id="{87e83b36-3707-4e01-b845-25491c30b189}" />
+</objects>

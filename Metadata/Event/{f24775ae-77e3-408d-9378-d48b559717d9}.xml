@@ -104,7 +104,6 @@
 		<relationship name="modules">
 			<destination>{3e8e6be5-f490-478e-9a2e-361abee48fd6}</destination>
 			<destination>{5b333f12-51cb-4ce8-a4a0-dc5a30b4523b}</destination>
-			<destination>{be065106-8659-4dd5-b408-b64dfbe32b87}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{0ca2d922-0020-4836-a868-826bf135a536}</destination>
@@ -118,7 +117,6 @@
 			<destination>{e1b2e353-fb39-492d-aac3-ebf94f8aba57}</destination>
 			<destination>{3e8e6be5-f490-478e-9a2e-361abee48fd6}</destination>
 			<destination>{5b333f12-51cb-4ce8-a4a0-dc5a30b4523b}</destination>
-			<destination>{be065106-8659-4dd5-b408-b64dfbe32b87}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{0fb78912-cec3-497d-b44a-10ad256981ca}</destination>
@@ -149,6 +147,9 @@
 	<object class="SoundScatterer" id="{a1718fc8-e442-4319-8258-a560cad13727}">
 		<property name="length">
 			<value>2</value>
+		</property>
+		<property name="polyphony">
+			<value>8</value>
 		</property>
 		<property name="minimumTimeBetweenSounds">
 			<value>800</value>
@@ -184,6 +185,9 @@
 		<property name="length">
 			<value>2</value>
 		</property>
+		<property name="polyphony">
+			<value>7</value>
+		</property>
 		<property name="minimumTimeBetweenSounds">
 			<value>950</value>
 		</property>
@@ -198,6 +202,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{96e1755e-d2c0-4cde-909d-09d2d6704994}">
+		<property name="volume">
+			<value>-3</value>
+		</property>
 		<property name="name">
 			<value>WaterDrops</value>
 		</property>
@@ -217,6 +224,9 @@
 		</property>
 		<property name="pitch">
 			<value>-24</value>
+		</property>
+		<property name="polyphony">
+			<value>5</value>
 		</property>
 		<property name="minimumTimeBetweenSounds">
 			<value>1500</value>
@@ -320,29 +330,6 @@
 		</relationship>
 		<relationship name="audioFile">
 			<destination>{e31649b3-e748-4590-8a21-b2b8fa5e39df}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{be065106-8659-4dd5-b408-b64dfbe32b87}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="isCutoff">
-			<value>true</value>
-		</property>
-		<property name="length">
-			<value>2</value>
-		</property>
-		<property name="volume">
-			<value>-20.5</value>
-		</property>
-		<property name="looping">
-			<value>true</value>
-		</property>
-		<relationship name="modulators">
-			<destination>{696813be-b78f-45aa-bfa1-cc4d8d96968a}</destination>
-		</relationship>
-		<relationship name="audioFile">
-			<destination>{a93a1001-02ae-49ee-83be-caaafcff7400}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{0ca2d922-0020-4836-a868-826bf135a536}">
@@ -493,23 +480,6 @@
 		</property>
 		<property name="rate">
 			<value>0.200000003</value>
-		</property>
-		<property name="depth">
-			<value>6</value>
-		</property>
-		<property name="direction">
-			<value>-100</value>
-		</property>
-	</object>
-	<object class="LFOModulator" id="{696813be-b78f-45aa-bfa1-cc4d8d96968a}">
-		<property name="nameOfPropertyBeingModulated">
-			<value>volume</value>
-		</property>
-		<property name="shape">
-			<value>6</value>
-		</property>
-		<property name="rate">
-			<value>0.155000001</value>
 		</property>
 		<property name="depth">
 			<value>6</value>
@@ -669,9 +639,6 @@
 		</relationship>
 	</object>
 	<object class="MixerSend" id="{d612d9bd-1c86-4058-bcd7-04e361270049}">
-		<property name="level">
-			<value>-54</value>
-		</property>
 		<property name="inputFormat">
 			<value>1</value>
 		</property>
