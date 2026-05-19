@@ -93,7 +93,7 @@
 	<object class="GroupTrack" id="{68c99995-a7df-4d61-8445-fcdb79355133}">
 		<relationship name="modules">
 			<destination>{eb0cabf5-d3e3-4dca-bc00-9d106845d180}</destination>
-			<destination>{7b13cea8-7bb0-4ce1-9f67-a09ced4e88ad}</destination>
+			<destination>{da2cc808-0686-4ebb-87d0-dbee0e6bd614}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{08eb2683-2bd4-4231-af9c-0583ffb0b904}</destination>
@@ -110,7 +110,7 @@
 			<destination>{2f231348-c017-48c7-8d82-8caac95f727d}</destination>
 			<destination>{eb0cabf5-d3e3-4dca-bc00-9d106845d180}</destination>
 			<destination>{2bb776b9-b11a-4be6-bffa-60adadcd8cb8}</destination>
-			<destination>{7b13cea8-7bb0-4ce1-9f67-a09ced4e88ad}</destination>
+			<destination>{da2cc808-0686-4ebb-87d0-dbee0e6bd614}</destination>
 		</relationship>
 		<relationship name="preset">
 			<destination>{f8eadc33-6259-4a82-bc82-2bb6f7d2c916}</destination>
@@ -173,6 +173,9 @@
 		</property>
 		<relationship name="modulators">
 			<destination>{27162db2-2b5c-4c5c-a13d-359823a77179}</destination>
+		</relationship>
+		<relationship name="parameters">
+			<destination>{6775a98e-1f49-49e1-a05b-1596b13bb593}</destination>
 		</relationship>
 		<relationship name="event">
 			<destination>{f24775ae-77e3-408d-9378-d48b559717d9}</destination>
@@ -244,12 +247,12 @@
 			<destination>{5b3d91f5-dd3a-4b2d-a5e3-ee245a7ee99f}</destination>
 		</relationship>
 	</object>
-	<object class="SnapshotModule" id="{7b13cea8-7bb0-4ce1-9f67-a09ced4e88ad}">
+	<object class="SnapshotModule" id="{da2cc808-0686-4ebb-87d0-dbee0e6bd614}">
 		<property name="start">
 			<value>1</value>
 		</property>
 		<relationship name="event">
-			<destination>{4b64032a-3601-4473-8e23-c6f886f1d3a1}</destination>
+			<destination>{aa10dd8e-77a5-4cc9-89e1-371de28291bf}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{08eb2683-2bd4-4231-af9c-0583ffb0b904}">
@@ -309,6 +312,11 @@
 		<property name="finalValue">
 			<value>-80</value>
 		</property>
+	</object>
+	<object class="ParameterProperty" id="{6775a98e-1f49-49e1-a05b-1596b13bb593}">
+		<relationship name="parameter">
+			<destination>{8cec9558-8629-4655-8d94-d1ef4d9b1b6d}</destination>
+		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{f848c7f5-d6c2-44ab-9067-2c3f9ccdcf1b}">
 		<relationship name="effects">

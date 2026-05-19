@@ -5,7 +5,7 @@
 			<value>Green</value>
 		</property>
 		<property name="name">
-			<value>Player</value>
+			<value>PLY</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{d4d9836b-2e03-457f-9c02-106a9068a8af}</destination>

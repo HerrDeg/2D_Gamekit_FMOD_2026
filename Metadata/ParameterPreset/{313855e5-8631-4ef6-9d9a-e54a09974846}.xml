@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="ParameterPreset" id="{e20af96c-f984-4a89-b960-eb02bf0b9b04}">
+	<object class="ParameterPreset" id="{313855e5-8631-4ef6-9d9a-e54a09974846}">
 		<property name="name">
-			<value>Impact</value>
+			<value>Depth</value>
 		</property>
 		<relationship name="folder">
 			<destination>{6c44d1b1-5373-4b1f-8092-8929bb62c458}</destination>
 		</relationship>
 		<relationship name="parameter">
-			<destination>{43e0eb67-8e87-4870-b9b6-ed2e315ca998}</destination>
+			<destination>{907e88cf-db0f-4b66-b5eb-40038a2f5630}</destination>
 		</relationship>
 	</object>
-	<object class="GameParameter" id="{43e0eb67-8e87-4870-b9b6-ed2e315ca998}">
-		<property name="maximum">
-			<value>60</value>
+	<object class="GameParameter" id="{907e88cf-db0f-4b66-b5eb-40038a2f5630}">
+		<property name="parameterType">
+			<value>1</value>
 		</property>
-		<property name="isHeld">
-			<value>true</value>
+		<property name="maximum">
+			<value>4</value>
 		</property>
 		<property name="initialValue">
 			<value>0</value>
