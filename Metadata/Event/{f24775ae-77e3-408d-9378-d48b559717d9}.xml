@@ -132,7 +132,7 @@
 			<value>800</value>
 		</property>
 		<property name="maximumTimeBetweenSounds">
-			<value>30000</value>
+			<value>20000</value>
 		</property>
 		<property name="maximumScatterDistance">
 			<value>65</value>
@@ -166,7 +166,7 @@
 			<value>950</value>
 		</property>
 		<property name="maximumTimeBetweenSounds">
-			<value>12000</value>
+			<value>10000</value>
 		</property>
 		<property name="maximumScatterDistance">
 			<value>90</value>
@@ -207,6 +207,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{2f815f4c-d9b7-426f-93b7-9e4556aabbba}">
+		<property name="volume">
+			<value>-80</value>
+		</property>
 		<property name="name">
 			<value>Creaks</value>
 		</property>
@@ -620,7 +623,7 @@
 			<value>true</value>
 		</property>
 		<property name="channel">
-			<value>2</value>
+			<value>1</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{28c23144-1c8c-4754-9c84-dc3005b12f9a}" />

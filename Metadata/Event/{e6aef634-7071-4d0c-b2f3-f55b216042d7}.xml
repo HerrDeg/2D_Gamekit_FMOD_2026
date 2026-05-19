@@ -5,7 +5,7 @@
 			<value>Cyan</value>
 		</property>
 		<property name="name">
-			<value>pillar_destroy</value>
+			<value>obj_pillar_destroy</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -66,7 +66,7 @@
 			<destination>{e4cc9e83-b586-4082-b482-fd8ca1b27fcc}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{0d701ae7-c4e0-424c-aa96-fccddccd5f44}</destination>
+			<destination>{4e4bafc5-8d9a-4e8b-ae29-ffd48a6cb9b1}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{d49f3134-3987-4bc8-bfc8-2035db2ca971}" />

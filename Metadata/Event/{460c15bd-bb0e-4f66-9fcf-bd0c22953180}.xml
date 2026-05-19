@@ -130,7 +130,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{f3a8a5ec-e6f1-45ed-aaf6-0bdd9a09bf8c}" />
-	<object class="SpatialiserEffect" id="{2a2ac71f-a15d-41fc-8262-6230d494c7eb}" />
+	<object class="SpatialiserEffect" id="{2a2ac71f-a15d-41fc-8262-6230d494c7eb}">
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>14</value>
+		</property>
+	</object>
 	<object class="TransceiverEffect" id="{68d039ae-d1d2-45fc-9596-2b430916edc4}">
 		<property name="channel">
 			<value>1</value>
