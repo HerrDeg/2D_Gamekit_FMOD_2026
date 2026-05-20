@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{c62908a0-b988-4fc8-a1bb-47f74098ee62}">
+		<property name="name">
+			<value>WaterDrops</value>
+		</property>
+		<relationship name="folder">
+			<destination>{6c44d1b1-5373-4b1f-8092-8929bb62c458}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{1cc0054e-e4cb-4c09-b136-2943936b1e0a}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{1cc0054e-e4cb-4c09-b136-2943936b1e0a}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+	</object>
+</objects>
