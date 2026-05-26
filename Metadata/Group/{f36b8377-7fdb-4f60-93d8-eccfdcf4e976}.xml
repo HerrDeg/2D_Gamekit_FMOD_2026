@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{f36b8377-7fdb-4f60-93d8-eccfdcf4e976}">
+		<property name="color">
+			<value>Red</value>
+		</property>
+		<property name="volume">
+			<value>-6.5</value>
+		</property>
+		<property name="name">
+			<value>enmy_gunner_attack</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{2abbc311-2ef8-4511-aa30-0eb4d80f0018}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{49db5265-bdce-45c6-8952-b8b84f17f787}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{a595682e-9711-407c-a535-1e246dc33919}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{2abbc311-2ef8-4511-aa30-0eb4d80f0018}">
+		<relationship name="effects">
+			<destination>{43a5b3f9-8045-4478-94fc-9c4277ddac30}</destination>
+			<destination>{64110c93-8f9d-43b8-8116-9ea064033b15}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{49db5265-bdce-45c6-8952-b8b84f17f787}" />
+	<object class="MixerBusFader" id="{43a5b3f9-8045-4478-94fc-9c4277ddac30}" />
+	<object class="MultibandDynamicsEffect" id="{64110c93-8f9d-43b8-8116-9ea064033b15}">
+		<property name="lowerFrequency">
+			<value>240.605774</value>
+		</property>
+		<property name="upperFrequency">
+			<value>3246.69092</value>
+		</property>
+		<property name="thresholdA">
+			<value>-9.46889114</value>
+		</property>
+		<property name="thresholdB">
+			<value>-44.1043777</value>
+		</property>
+		<property name="thresholdC">
+			<value>-38.3448792</value>
+		</property>
+		<property name="ratioB">
+			<value>9.5</value>
+		</property>
+		<property name="ratioC">
+			<value>15.5</value>
+		</property>
+		<property name="attackB">
+			<value>4</value>
+		</property>
+		<property name="attackC">
+			<value>3</value>
+		</property>
+		<property name="releaseC">
+			<value>620</value>
+		</property>
+		<property name="gainMakeUpC">
+			<value>1.5</value>
+		</property>
+	</object>
+</objects>

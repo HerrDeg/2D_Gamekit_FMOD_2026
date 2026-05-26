@@ -481,7 +481,6 @@
 		<relationship name="effects">
 			<destination>{4322e357-3b81-42cc-8b75-0403feef9350}</destination>
 			<destination>{97b18ad5-874f-4996-84ec-9575a3642475}</destination>
-			<destination>{9ede5124-4147-47f2-960d-a5a8dbfe5125}</destination>
 			<destination>{27e210ed-6671-469c-ba6c-4eaa09645fe1}</destination>
 			<destination>{2784aeef-e9bf-4359-8429-b5fd9cfbd8bd}</destination>
 		</relationship>
@@ -781,7 +780,6 @@
 			<value>0.699999988</value>
 		</property>
 	</object>
-	<object class="Sidechain" id="{9ede5124-4147-47f2-960d-a5a8dbfe5125}" />
 	<object class="TransceiverEffect" id="{27e210ed-6671-469c-ba6c-4eaa09645fe1}">
 		<property name="transmitMode">
 			<value>true</value>

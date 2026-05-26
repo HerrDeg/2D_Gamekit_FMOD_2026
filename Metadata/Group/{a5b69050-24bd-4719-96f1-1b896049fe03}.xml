@@ -7,9 +7,6 @@
 		<property name="name">
 			<value>ENMY</value>
 		</property>
-		<property name="maxInstances">
-			<value>4</value>
-		</property>
 		<relationship name="effectChain">
 			<destination>{af467c1b-6837-4418-9b7e-45aa0947bf18}</destination>
 		</relationship>
