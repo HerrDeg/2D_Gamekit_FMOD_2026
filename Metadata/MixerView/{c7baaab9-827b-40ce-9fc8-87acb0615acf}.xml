@@ -8,6 +8,10 @@
 			<destination>{11aedd98-3d16-4d54-bdd8-91eb266d2699}</destination>
 			<destination>{9446116f-7932-46e5-958f-40bd2a3a2710}</destination>
 			<destination>{2be79a5a-885e-4e48-b41b-9e5fe4061459}</destination>
+			<destination>{e428701b-2820-43a8-9ad7-a40977e83918}</destination>
+			<destination>{b6b61e64-1ee6-4294-b156-d8ff5f522b67}</destination>
+			<destination>{abdcfe1b-c9e4-433b-8946-1b50b118feed}</destination>
+			<destination>{c4fde317-2f9f-4475-8ab3-abac3be55dd5}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{cf6fa574-15a6-418b-a5cd-cd7d92939021}</destination>
