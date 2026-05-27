@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{da336dd0-6599-462e-adf6-3f3fca5206ff}">
+		<property name="color">
+			<value>Green</value>
+		</property>
+		<property name="name">
+			<value>ply_land</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{f7d26d59-9d46-4873-b7d2-d6154e106c14}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{9b8b701a-2023-407c-af91-b171b46b07e1}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{d4d25949-ce56-4ed5-947a-06b75db25f33}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{f7d26d59-9d46-4873-b7d2-d6154e106c14}">
+		<relationship name="effects">
+			<destination>{33849225-510d-4dd5-ad53-58b80ca8665f}</destination>
+			<destination>{bf014a0e-d532-4c18-ad71-33940da29e04}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{9b8b701a-2023-407c-af91-b171b46b07e1}" />
+	<object class="MixerBusFader" id="{33849225-510d-4dd5-ad53-58b80ca8665f}" />
+	<object class="SpectralSidechain" id="{bf014a0e-d532-4c18-ad71-33940da29e04}">
+		<property name="minimumFrequency">
+			<value>20</value>
+		</property>
+		<property name="maximumFrequency">
+			<value>120</value>
+		</property>
+	</object>
+</objects>

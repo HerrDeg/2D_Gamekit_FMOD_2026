@@ -7,6 +7,9 @@
 		<property name="name">
 			<value>AMB</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{27a953f7-f53b-47e4-917b-c00d90f946da}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{0be429fa-a262-4bf8-9637-c3b6466f7880}</destination>
 		</relationship>
@@ -15,6 +18,23 @@
 		</relationship>
 		<relationship name="output">
 			<destination>{0d701ae7-c4e0-424c-aa96-fccddccd5f44}</destination>
+		</relationship>
+	</object>
+	<object class="SpectralSidechainModulator" id="{27a953f7-f53b-47e4-917b-c00d90f946da}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="amount">
+			<value>15</value>
+		</property>
+		<property name="attackTime">
+			<value>58</value>
+		</property>
+		<property name="releaseTime">
+			<value>1500</value>
+		</property>
+		<relationship name="sidechains">
+			<destination>{bf014a0e-d532-4c18-ad71-33940da29e04}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{0be429fa-a262-4bf8-9637-c3b6466f7880}">
