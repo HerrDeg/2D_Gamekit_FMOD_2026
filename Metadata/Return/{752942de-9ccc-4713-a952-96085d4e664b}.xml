@@ -4,6 +4,9 @@
 		<property name="name">
 			<value>CaveReverb</value>
 		</property>
+		<relationship name="masters">
+			<destination>{8191188f-9ac5-4860-96ec-236e180c9954}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{27b676b2-d15b-4d06-8f71-44c6c8c6a2e7}</destination>
 		</relationship>

@@ -4,6 +4,9 @@
 		<property name="name">
 			<value>Cutscene</value>
 		</property>
+		<relationship name="masters">
+			<destination>{8191188f-9ac5-4860-96ec-236e180c9954}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{6b37fcf5-d7fd-41b0-95c7-bc856ec54c29}</destination>
 		</relationship>

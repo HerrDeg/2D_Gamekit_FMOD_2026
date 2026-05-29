@@ -4,6 +4,9 @@
 		<property name="name">
 			<value>OutdoorReverb</value>
 		</property>
+		<relationship name="masters">
+			<destination>{8191188f-9ac5-4860-96ec-236e180c9954}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{c6ee8e36-3d00-4257-88f6-87eaf1cb3fd6}</destination>
 		</relationship>

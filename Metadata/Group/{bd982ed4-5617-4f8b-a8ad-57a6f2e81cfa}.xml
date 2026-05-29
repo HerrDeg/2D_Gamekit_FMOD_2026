@@ -10,6 +10,9 @@
 		<relationship name="modulators">
 			<destination>{27a953f7-f53b-47e4-917b-c00d90f946da}</destination>
 		</relationship>
+		<relationship name="masters">
+			<destination>{8191188f-9ac5-4860-96ec-236e180c9954}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{0be429fa-a262-4bf8-9637-c3b6466f7880}</destination>
 		</relationship>
